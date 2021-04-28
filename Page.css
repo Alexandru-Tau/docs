@@ -29,3 +29,13 @@ table, th, td {
 td {
   text-align: center;
 }
+
+h1 {
+  width: 100px;
+  height: 100px;
+  transition: width 2s;
+}
+
+h1:hover {
+  width: 300px;
+}
